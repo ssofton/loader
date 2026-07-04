@@ -1,3 +1,10 @@
+# @ssofton/loader
+
+![npm](https://img.shields.io/npm/v/@ssofton/loader)
+![license](https://img.shields.io/npm/l/@ssofton/loader)
+![downloads](https://img.shields.io/npm/dm/@ssofton/loader)
+
+Lightweight JavaScript loading spinner for HTML, React, Vue and Node applications.
 # Loader.js
 
 A lightweight, dependency-free JavaScript loading indicator that works for both full-page overlays and specific HTML elements.
