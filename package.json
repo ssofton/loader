@@ -1,0 +1,32 @@
+{
+  "name": "@ssofton/loader",
+  "version": "1.0.0",
+  "description": "Lightweight JavaScript loading indicator",
+  "type": "module",
+  "main": "./dist/loader.umd.js",
+  "module": "./dist/loader.esm.js",
+  "browser": "./dist/loader.min.js",
+  "exports": {
+    ".": {
+      "import": "./dist/loader.esm.js",
+      "default": "./dist/loader.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "loader",
+    "spinner",
+    "loading",
+    "overlay"
+  ],
+  "author": "LNT Softwares",
+  "license": "MIT"
+}

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output (keep this if you don't want to version generated files)
+# dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# npm
+package-lock.json
