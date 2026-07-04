@@ -3,30 +3,57 @@
   "version": "1.0.0",
   "description": "Lightweight JavaScript loading indicator",
   "type": "module",
+
   "main": "./dist/loader.umd.js",
   "module": "./dist/loader.esm.js",
   "browser": "./dist/loader.min.js",
+
   "exports": {
     ".": {
       "import": "./dist/loader.esm.js",
       "default": "./dist/loader.umd.js"
     }
   },
+
   "files": [
     "dist",
     "README.md",
     "LICENSE"
   ],
+
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssofton/loader.git"
+  },
+
+  "homepage": "https://github.com/ssofton/loader#readme",
+
+  "bugs": {
+    "url": "https://github.com/ssofton/loader/issues"
+  },
+
   "keywords": [
     "loader",
-    "spinner",
     "loading",
-    "overlay"
+    "spinner",
+    "overlay",
+    "javascript",
+    "ui",
+    "progress",
+    "indicator",
+    "frontend",
+    "react",
+    "vue",
+    "vanilla"
   ],
+
   "author": "LNT Softwares",
-  "license": "MIT"
+  "license": "MIT",
+  "website": "https://softondemand.co.in",
+  "sideEffects": true
 }

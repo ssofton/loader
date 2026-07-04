@@ -1,5 +1,7 @@
 # Dependencies
 node_modules/
+dist/
+*.tgz
 
 # Build output (keep this if you don't want to version generated files)
 # dist/
