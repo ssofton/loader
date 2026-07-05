@@ -1,13 +1,33 @@
-# @ssofton/loader
+# @softon/loader
 
-![npm](https://img.shields.io/npm/v/@ssofton/loader)
-![license](https://img.shields.io/npm/l/@ssofton/loader)
-![downloads](https://img.shields.io/npm/dm/@ssofton/loader)
+![npm](https://img.shields.io/npm/v/@softon/loader)
+![license](https://img.shields.io/npm/l/@softon/loader)
+![downloads](https://img.shields.io/npm/dm/@softon/loader)
 
 Lightweight JavaScript loading spinner for HTML, React, Vue and Node applications.
 # Loader.js
 
 A lightweight, dependency-free JavaScript loading indicator that works for both full-page overlays and specific HTML elements.
+
+## Installation
+
+### npm
+
+```bash
+npm install @softon/loader
+```
+
+### ES Module
+
+```javascript
+import Loader from "@softon/loader";
+```
+
+### CDN
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@softon/loader/dist/loader.min.js"></script>
+```
 
 ## Features
 
