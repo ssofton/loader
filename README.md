@@ -23,11 +23,6 @@ npm install @softon/loader
 import Loader from "@softon/loader";
 ```
 
-### CDN
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/@softon/loader/dist/loader.min.js"></script>
-```
 
 ## Features
 
@@ -46,10 +41,8 @@ import Loader from "@softon/loader";
 ### Using jsDelivr CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPOSITORY/loader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@softon/loader/dist/loader.min.js"></script>
 ```
-
-> Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your GitHub repository details.
 
 ### Or download
 
